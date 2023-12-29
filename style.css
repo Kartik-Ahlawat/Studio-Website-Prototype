@@ -8,7 +8,6 @@
     background: url(landscape.jpg);
     height: 100vh;
     background-size: cover;
-    /* background-position: center; */
 }
 
 .btn_one i {
@@ -43,7 +42,7 @@
 
 .sidebar_menu .logo a {
     position: absolute;
-    left: 50px;
+    left: 30px;
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -88,7 +87,7 @@ a {
 
 .sidebar_menu .social_media {
     position: absolute;
-    left: 25%;
+    left: 12%;
     bottom: 50px;
 }
 
@@ -136,7 +135,7 @@ a {
     color: white;
     position: absolute;
     bottom: 10px;
-    left: 50px;
+    left: 10px;
     font-size: 10px;
 }
 
@@ -145,23 +144,33 @@ a {
         background: url(portrait.jpg);
         background-size: cover;
     }
-}
 
-@media (max-width: 1000px) {
     .sidebar_menu .menu li {
-        padding: 18px 20px;
+        padding: 18px 24px;
     }
 
     .sidebar_menu .logo a {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .sidebar_menu .menu i,
     .sidebar_menu .menu a {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .sidebar_menu .social_media i {
-        padding: 0 6px;
+        padding: 0 8px;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+    .footer {
+        font-size: 15px; /* Increase font size for the footer */
+        margin-bottom: 2px;
+        left: 0px;
+
+    }
+
+    .btn_one i{
+        font-size: 60px;
     }
 }
